@@ -2231,12 +2231,12 @@ Indice.Gap <- function (x, clall, reference.distribution = "unif", B = 10,
  else
   {
     
-    results <- c(nc.KL, indice.KL, nc.CH, indice.CH, nc.Hartigan, indice.Hartigan, nc.CCC, indice.CCC, nc.Scott, indice.Scott,
-		nc.Marriot, indice.Marriot, nc.TrCovW, indice.TrCovW, nc.TraceW, indice.TraceW, nc.Friedman, indice.Friedman, 
-    nc.Rubin, indice.Rubin, nc.cindex, indice.cindex, nc.DB, indice.DB, nc.Silhouette, indice.Silhouette,
-    nc.Duda, indice.Duda, nc.Pseudo, indice.Pseudo, nc.Beale, indice.Beale, nc.Ratkowsky, indice.Ratkowsky,
-    nc.Ball, indice.Ball, nc.ptbiserial, indice.ptbiserial, nc.Frey, indice.Frey, nc.McClain, indice.McClain, 
-    nc.Dunn, indice.Dunn, nc.Hubert, indice.Hubert, nc.sdindex, indice.sdindex, nc.Dindex, indice.Dindex, nc.SDbw, indice.SDbw 
+    results <- c(nc.KL[1], indice.KL[1], nc.CH[1], indice.CH[1], nc.Hartigan[1], indice.Hartigan[1], nc.CCC[1], indice.CCC[1], nc.Scott[1], indice.Scott[1],
+		nc.Marriot[1], indice.Marriot[1], nc.TrCovW[1], indice.TrCovW[1], nc.TraceW[1], indice.TraceW[1], nc.Friedman[1], indice.Friedman[1], 
+    nc.Rubin[1], indice.Rubin[1], nc.cindex[1], indice.cindex[1], nc.DB[1], indice.DB[1], nc.Silhouette[1], indice.Silhouette[1],
+    nc.Duda[1], indice.Duda[1], nc.Pseudo[1], indice.Pseudo[1], nc.Beale[1], indice.Beale[1], nc.Ratkowsky[1], indice.Ratkowsky[1],
+    nc.Ball[1], indice.Ball[1], nc.ptbiserial[1], indice.ptbiserial[1], nc.Frey[1], indice.Frey[1], nc.McClain[1], indice.McClain[1], 
+    nc.Dunn[1], indice.Dunn[1], nc.Hubert[1], indice.Hubert[1], nc.sdindex[1], indice.sdindex[1], nc.Dindex[1], indice.Dindex[1], nc.SDbw[1], indice.SDbw[1] 
     )
     results1<-matrix(c(results),nrow=2,ncol=26)
     resultats <- matrix(c(results),nrow=2,ncol=26,dimnames = list(c("Number_clusters","Value_Index"),
